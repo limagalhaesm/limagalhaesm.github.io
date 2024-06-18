@@ -1,0 +1,146 @@
+header img {
+    width: 200px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+
+.blue-rectangle {
+    background: linear-gradient(to bottom, #427AB2, #0A275C); /* Cor azul */
+    width: 200px; /* Largura do retângulo */
+    height: 100vh; /* Altura do retângulo (100% da altura da viewport) */
+    position: fixed; /* Posição fixa na página */
+    top: 0; /* Alinha o topo do retângulo com o topo da página */
+    left: 0; /* Alinha a esquerda do retângulo com a esquerda da página */
+}
+
+
+button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #0f3e67; /* Define a cor dos botões */
+    color: #ffffff; /* Cor das letras no botão */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Espaçamento entre os botões */
+    text-align: center;
+    height: 50px;
+    width: 199px;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: #0b3254;
+}   
+
+
+
+.link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 100px; /* Define um espaçamento abaixo do link */
+    margin-left: 45px; /* Move o link para a direita*/
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+
+button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #0f3e67; /* Define a cor dos botões */
+    color: #ffffff; /* Cor das letras no botão */
+    text-decoration: none;
+    border: 10px;
+    border-color: #252525;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Espaçamento entre os botões */
+    text-align: center;
+    height: 50px;
+    width: 199px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+}
+
+
+
+.inputs {
+    position: absolute; /* Posiciona os inputs em relação ao contêiner */
+    top: 20px; /* Ajuste conforme necessário */
+    left: 120px; /* Ajuste conforme necessário */
+    padding: 20px; /* Espaçamento interno para separar o texto do contorno */
+    margin-left: 230px; /* Para alinhar o texto à direita do retângulo azul */
+    flex-direction: row; /* Define a direção do flex para horizontal */
+    display: block; 
+}
+
+
+
+.inputs input[type="text"] {
+    margin-bottom: 10px; /* Define a margem de 10 pixels entre cada caixa de mensagem */
+    margin-top: 0px; /* Define um deslocamento para cima de 20 pixels */
+    width: 100px; /* Define a largura das caixas de mensagem */
+    height: 15px;
+}
+
+
+
+input[type="text"], button {
+    display: inline-block; /* Define a posição do botão para o lado das caixas de mensagem*/
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
+
+.botaoDoar {
+    height: 40px; /* Define a altura específica para este botão */
+    font-size: 16px; /* Define o tamanho da fonte específico para este botão */
+    margin-bottom: 10px;
+    height: 25px;
+    width: 130px;
+    font-size: 10px;
+    background-color: rgb(56, 88, 147);
+}
+
+
+
+h2 {
+    margin-bottom: 160px; /* Define um espaçamento abaixo do título */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 205px; /* Define um espaçamento acima da tabela */
+    width: 950px; /* Define a largura da tabela */
+    margin-left: 240px; /* Move a tabela para a direita */
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #adadad;
+}
+
+
+
+.link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 120px; /* Define um espaçamento abaixo do link */
+    margin-left: 45px; /* Move o link para a direita*/
+}
+
+.link:hover {
+    text-decoration: underline;
+}

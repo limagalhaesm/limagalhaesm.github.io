@@ -1,0 +1,115 @@
+header img {
+    width: 200px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+
+.blue-rectangle {
+    background: linear-gradient(to bottom, #427AB2, #0A275C); /* Cor azul */
+    width: 200px; /* Largura do retângulo */
+    height: 100vh; /* Altura do retângulo (100% da altura da viewport) */
+    position: fixed; /* Posição fixa na página */
+    top: 0; /* Alinha o topo do retângulo com o topo da página */
+    left: 0; /* Alinha a esquerda do retângulo com a esquerda da página */
+}
+
+
+button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #0f3e67; /* Define a cor dos botões */
+    color: #ffffff; /* Cor das letras no botão */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Espaçamento entre os botões */
+    text-align: center;
+    height: 50px;
+    width: 199px;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: #0b3254;
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+}
+
+
+
+.link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 140px; /* Define um espaçamento abaixo do link */
+    margin-left: 45px; /* Move o link para a direita*/
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+
+.texto {
+    margin-left: 650px;
+    margin-top: 60px;
+}
+
+
+
+body {
+    background-color: #f4f4f4; /* Cinza claro */
+    color: #000; /* Cor do texto preto */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+}
+
+
+
+/* Estilos para a lista */
+.scrollable-list-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.scrollable-list {
+    overflow-y: auto; /* Ativa a rolagem vertical */
+    border: 1px solid #111951; /* Borda da lista */
+    padding: 10px;
+    width: 500px; /* Largura da lista */
+    height: 230px;
+    margin-left: 300px; /* Mover para a direita */
+    margin-top: 60px; /* Dar espaço em cima da lista de rolagem */
+}
+
+/* Estilos para os itens da lista */
+.scrollable-list-item {
+    padding: 5px;
+    border-bottom: 1px solid #111951; /* Dar espaço em baixo da lista */
+}
+
+/* Estilos para a imagem */
+.side-image {
+    width: 250px; /* Largura da imagem */
+    height: auto; /* Altura da imagem */
+    margin-left: 60px; /* Move o botão para direita */
+    margin-top: 60px; /* Move o botão para baixo */
+}
+
+
+
+.button-imagem {
+    display: flex; /* Põe um botão ao lado do outro */
+    margin-left: 850px; /* Mover botões para a direita */
+}
+
+.button-imagem button {
+    margin: 5px; /* Espaçamento entre os botões */
+    padding: 10px 20px;
+    background-color: rgb(56, 88, 147); /* Cor de fundo botão */
+    color: white; /* Cor das letras do botão */
+    border: rgb(42, 65, 109); /* Cor da borda do botão */
+    cursor: pointer; /* Muda o cursou quando passar em cima do botão */
+    width: 160px; /* Largura do botão */
+    height: 50px; /* Altura do botão */
+}

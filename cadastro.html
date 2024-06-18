@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/cadastro.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortes Engenharia</title>
+</head>
+<body>
+    <header>
+        <div class="blue-rectangle">
+            <a href="index.html" class="imagem-botao"><img src="img/FORTES_LOGOMARCA.png"></a>
+            <button onclick="window.location.href = 'page_1.html'">Gerenciamento de Doações</button>
+            <button onclick="window.location.href = 'page_2.html'">Gerenciamento de Instituições</button>
+            <button onclick="window.location.href = 'page_3.html'">Relatórios</button>
+            <button onclick="window.location.href = 'page_4.html'">Publicar</button>
+            <a href="index_2.html" class="link">Precisa de Ajuda?</a>
+        </div>
+    </header>
+    <div class="signup-container">
+        <h2>Cadastro</h2>
+    
+        <form action="/register" method="post">
+            <div>
+                <label for="cpf">CPF:</label>
+                <input type="text" id="cpf" name="cpf" required>
+            </div>
+            <div>
+                <label for="birthdate">Data de Nascimento:</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+            </div>
+            <div>
+                <label for="fullname">Nome Completo:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div>
+                <label for="zipcode">CEP:</label>
+                <input type="text" id="zipcode" name="zipcode" required>
+            </div>
+            <div>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div>
+                <label for="confirm_password">Repetir Senha:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+            <div>
+                <label for="username">Nome de Login:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="phone">Número de Telefone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div>
+                <input type="submit" value="Cadastrar">
+            </div>
+        </form>
+    
+        <div class="login-link">
+            Já tem uma conta? <a href="index.html">Faça login aqui</a>
+        </div>
+    </div>
+</body>
+</html>

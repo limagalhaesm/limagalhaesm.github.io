@@ -1,0 +1,51 @@
+header img {
+    width: 200px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+
+.blue-rectangle {
+    background: linear-gradient(to bottom, #427AB2, #0A275C); /* Cor azul */
+    width: 200px; /* Largura do retângulo */
+    height: 100vh; /* Altura do retângulo (100% da altura da viewport) */
+    position: fixed; /* Posição fixa na página */
+    top: 0; /* Alinha o topo do retângulo com o topo da página */
+    left: 0; /* Alinha a esquerda do retângulo com a esquerda da página */
+}
+
+
+button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #0f3e67; /* Define a cor dos botões */
+    color: #ffffff; /* Cor das letras no botão */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Espaçamento entre os botões */
+    text-align: center;
+    height: 50px;
+    width: 199px;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: #0b3254;
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+}
+
+
+
+.link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 140px; /* Define um espaçamento abaixo do link */
+    margin-left: 45px; /* Move o link para a direita*/
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+

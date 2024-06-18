@@ -1,0 +1,200 @@
+header img {
+    width: 200px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+
+
+.container {
+    display: flex; /* Ativa o modelo flexível para o contêiner pai */
+    justify-content: center; /* Centraliza os itens ao longo do eixo principal (horizontalmente) */
+    align-items: center; /* Centraliza os itens ao longo do eixo secundário (verticalmente) */
+    height: 100vh; /* Define a altura do contêiner para preencher a altura da tela */
+}
+
+
+
+.blue-rectangle {
+    background: linear-gradient(to bottom, #93E5CE, #006B44); /* Cor azul */
+    width: 200px; /* Largura do retângulo */
+    height: 100vh; /* Altura do retângulo (100% da altura da viewport) */
+    position: fixed; /* Posição fixa na página */
+    top: 0; /* Alinha o topo do retângulo com o topo da página */
+    left: 0; /* Alinha a esquerda do retângulo com a esquerda da página */
+}
+
+
+#mãos {
+    width: 300px;
+    height: fit-content;
+    
+
+}
+
+
+#doação {
+    width: 100px;
+    height: fit-content;
+
+}
+
+
+
+#caixas {
+    width: 100px;
+    height: fit-content;
+
+}
+
+
+
+button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #006B44; /* Define a cor dos botões */
+    color: #ffffff; /* Cor das letras no botão */
+    text-decoration: none;
+    border: 10px;
+    border-color: #252525;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Espaçamento entre os botões */
+    text-align: center;
+    height: 50px;
+    width: 199px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+}
+
+
+
+.inputs {
+    position: absolute; /* Posiciona os inputs em relação ao contêiner */
+    top: 20px; /* Ajuste conforme necessário */
+    left: 120px; /* Ajuste conforme necessário */
+    padding: 20px; /* Espaçamento interno para separar o texto do contorno */
+    margin-left: 230px; /* Para alinhar o texto à direita do retângulo azul */
+    flex-direction: row; /* Define a direção do flex para horizontal */
+    display: block; 
+}
+
+
+
+.inputs input[type="text"] {
+    margin-bottom: 10px; /* Define a margem de 10 pixels entre cada caixa de mensagem */
+    margin-top: 0px; /* Define um deslocamento para cima de 20 pixels */
+    width: 100px; /* Define a largura das caixas de mensagem */
+    height: 15px;
+}
+
+
+
+input[type="text"], button {
+    display: inline-block; /* Define a posição do botão para o lado das caixas de mensagem*/
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
+
+.botaoDoar {
+    height: 40px; /* Define a altura específica para este botão */
+    font-size: 16px; /* Define o tamanho da fonte específico para este botão */
+    margin-bottom: 10px;
+    height: 25px;
+    width: 130px;
+    font-size: 10px;
+    background-color: rgb(56, 88, 147); /* Define a cor de fundo do botão */
+}
+
+
+
+
+.link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 120px; /* Define um espaçamento abaixo do link */
+    text-align: center;
+    font-size: 16px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+}
+nav {
+    background-color: #04BF7B;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    background-color: #F2F2F2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 30px 0;
+}
+.news {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.news h2 {
+    margin-top: 0;
+    color: #033E8C;
+    text-align: center;
+}
+.news .date {
+    color: #04BF7B;
+    font-size: 0.9em;
+}
+.news.large {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    width: 60%;
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.news.small {
+    grid-column: 2 / 3;
+    height: 230px;
+    margin-right: 100px;
+}
+.news.small {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

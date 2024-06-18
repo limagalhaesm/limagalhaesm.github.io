@@ -1,0 +1,116 @@
+header img {
+    width: 200px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+
+.container {
+    display: flex; /* Ativa o modelo flexível para o contêiner pai */
+    justify-content: center; /* Centraliza os itens ao longo do eixo principal (horizontalmente) */
+    align-items: center; /* Centraliza os itens ao longo do eixo secundário (verticalmente) */
+    height: 100vh; /* Define a altura do contêiner para preencher a altura da tela */
+}
+
+
+.blue-rectangle {
+    background: linear-gradient(to bottom, #427AB2, #0A275C); /* Cor azul */
+    width: 200px; /* Largura do retângulo */
+    height: 100vh; /* Altura do retângulo (100% da altura da viewport) */
+    position: fixed; /* Posição fixa na página */
+    top: 0; /* Alinha o topo do retângulo com o topo da página */
+    left: 0; /* Alinha a esquerda do retângulo com a esquerda da página */
+}
+
+
+button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #0f3e67; /* Define a cor dos botões */
+    color: #ffffff; /* Cor das letras no botão */
+    text-decoration: none;
+    border: none; /* Adiciona uma borda preta ao redor do botão */
+    border-radius: 5px;
+    margin-bottom: 20px; /* Espaçamento entre os botões */
+    text-align: center;
+    height: 50px;
+    width: 198px;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: #01060b; /* Define a cor da borda */
+    border-radius: 6%;
+}
+
+
+/* Link de suport "Precisa de ajuda?" */
+.link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 140px; /* Define um espaçamento abaixo do link */
+    margin-left: 45px; /* Move o link para a direita*/
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signup-container {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #0f3e67;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 800px;
+}
+
+.signup-container form div {
+    margin-bottom: 10px;
+}
+
+.signup-container form div label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+.signup-container form div input[type="text"],
+.signup-container form div input[type="email"],
+.signup-container form div input[type="password"],
+.signup-container form div input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #0f3e67;
+    border-radius: 3px;
+}
+
+.signup-container form div input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #0f3e67;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-link a {
+    color: #123b87;
+}
